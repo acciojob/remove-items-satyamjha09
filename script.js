@@ -2,7 +2,7 @@
 
 function removeSelectedItem() {
 
-	const selectedIndex = document.getElementById("colorSelect");
+	const selectElement = document.getElementById("colorSelect");
 
 	const selectedIndex = selectElement.selectedIndex;
 
