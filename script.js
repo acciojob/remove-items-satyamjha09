@@ -2,15 +2,15 @@
 
 function removeSelectedItem() {
 
-	const seletedElement = document.getElementById("colorSelect");
+	const selectedIndex = document.getElementById("colorSelect");
 
-	const seletedIndex = seletedElement.seletedIndex;
+	const selectedIndex = selectElement.selectedIndex;
 
-	if(seletedIndex !== -1) {
-		seletedElement.remove(seletedIndex);
-	} else {
-		alert("Please select a color to remove.");
-	}
+  if (selectedIndex !== -1) {
+    selectElement.remove(selectedIndex); // Removes the selected option
+  } else {
+    alert("Please select a color to remove.");
+  }
 	
 	
 }
